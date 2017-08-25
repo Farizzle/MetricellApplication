@@ -9,13 +9,34 @@
 /* Begin PBXBuildFile section */
 		64F4816A1F4F596400F5BC72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F481691F4F596400F5BC72 /* main.m */; };
 		64F4816D1F4F596400F5BC72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F4816C1F4F596400F5BC72 /* AppDelegate.m */; };
-		64F481701F4F596400F5BC72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F4816F1F4F596400F5BC72 /* ViewController.m */; };
 		64F481731F4F596400F5BC72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F481711F4F596400F5BC72 /* Main.storyboard */; };
 		64F481761F4F596400F5BC72 /* MetricellApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 64F481741F4F596400F5BC72 /* MetricellApp.xcdatamodeld */; };
 		64F481781F4F596400F5BC72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64F481771F4F596400F5BC72 /* Assets.xcassets */; };
 		64F4817B1F4F596400F5BC72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64F481791F4F596400F5BC72 /* LaunchScreen.storyboard */; };
 		64F481861F4F596400F5BC72 /* MetricellAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F481851F4F596400F5BC72 /* MetricellAppTests.m */; };
 		64F481911F4F596500F5BC72 /* MetricellAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F481901F4F596400F5BC72 /* MetricellAppUITests.m */; };
+		64F481A81F4F5A9200F5BC72 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F481A71F4F5A9200F5BC72 /* AudioToolbox.framework */; };
+		64F481AA1F4F5A9E00F5BC72 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F481A91F4F5A9E00F5BC72 /* CFNetwork.framework */; };
+		64F481AC1F4F5AA700F5BC72 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F481AB1F4F5AA700F5BC72 /* CoreGraphics.framework */; };
+		64F481AE1F4F5AAF00F5BC72 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F481AD1F4F5AAF00F5BC72 /* CoreLocation.framework */; };
+		64F481B01F4F5AB600F5BC72 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F481AF1F4F5AB600F5BC72 /* QuartzCore.framework */; };
+		64F481B21F4F5ABC00F5BC72 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F481B11F4F5ABC00F5BC72 /* Security.framework */; };
+		64F481B41F4F5AC400F5BC72 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F481B31F4F5AC400F5BC72 /* StoreKit.framework */; };
+		64F481B61F4F5ACA00F5BC72 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F481B51F4F5ACA00F5BC72 /* SystemConfiguration.framework */; };
+		64F481B81F4F5AD000F5BC72 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F481B71F4F5AD000F5BC72 /* libz.tbd */; };
+		64F481BA1F4F5ADB00F5BC72 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F481B91F4F5ADB00F5BC72 /* libsqlite3.tbd */; };
+		64F481BD1F4F5D6F00F5BC72 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F481BB1F4F5D6F00F5BC72 /* Bolts.framework */; };
+		64F481BE1F4F5D6F00F5BC72 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F481BC1F4F5D6F00F5BC72 /* Parse.framework */; };
+		64F481C01F4F643C00F5BC72 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F481BF1F4F643C00F5BC72 /* Accounts.framework */; };
+		64F481C21F4F644300F5BC72 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F481C11F4F644300F5BC72 /* AdSupport.framework */; };
+		64F481C41F4F644B00F5BC72 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F481C31F4F644B00F5BC72 /* MobileCoreServices.framework */; };
+		64F481C61F4F645300F5BC72 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F481C51F4F645300F5BC72 /* Social.framework */; };
+		64F481C81F4F646000F5BC72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F481C71F4F646000F5BC72 /* Foundation.framework */; };
+		64F481CB1F4F6BA600F5BC72 /* LogIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F481CA1F4F6BA600F5BC72 /* LogIn.m */; };
+		64F481CE1F4F895600F5BC72 /* Register.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F481CD1F4F895600F5BC72 /* Register.m */; };
+		64F481D41F4F947700F5BC72 /* ReportLists.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F481D31F4F947700F5BC72 /* ReportLists.m */; };
+		64F481D71F4F991000F5BC72 /* UploadImages.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F481D61F4F991000F5BC72 /* UploadImages.m */; };
+		64F481DB1F4FB22700F5BC72 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F481DA1F4FB22700F5BC72 /* Constants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +61,6 @@
 		64F481691F4F596400F5BC72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		64F4816B1F4F596400F5BC72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		64F4816C1F4F596400F5BC72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		64F4816E1F4F596400F5BC72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		64F4816F1F4F596400F5BC72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		64F481721F4F596400F5BC72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64F481751F4F596400F5BC72 /* MetricellApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MetricellApp.xcdatamodel; sourceTree = "<group>"; };
 		64F481771F4F596400F5BC72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +72,33 @@
 		64F4818C1F4F596400F5BC72 /* MetricellAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetricellAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64F481901F4F596400F5BC72 /* MetricellAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetricellAppUITests.m; sourceTree = "<group>"; };
 		64F481921F4F596500F5BC72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64F481A71F4F5A9200F5BC72 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		64F481A91F4F5A9E00F5BC72 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		64F481AB1F4F5AA700F5BC72 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64F481AD1F4F5AAF00F5BC72 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		64F481AF1F4F5AB600F5BC72 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		64F481B11F4F5ABC00F5BC72 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		64F481B31F4F5AC400F5BC72 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		64F481B51F4F5ACA00F5BC72 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		64F481B71F4F5AD000F5BC72 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		64F481B91F4F5ADB00F5BC72 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		64F481BB1F4F5D6F00F5BC72 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		64F481BC1F4F5D6F00F5BC72 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		64F481BF1F4F643C00F5BC72 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		64F481C11F4F644300F5BC72 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		64F481C31F4F644B00F5BC72 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		64F481C51F4F645300F5BC72 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		64F481C71F4F646000F5BC72 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64F481C91F4F6BA600F5BC72 /* LogIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogIn.h; sourceTree = "<group>"; };
+		64F481CA1F4F6BA600F5BC72 /* LogIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogIn.m; sourceTree = "<group>"; };
+		64F481CC1F4F895600F5BC72 /* Register.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Register.h; sourceTree = "<group>"; };
+		64F481CD1F4F895600F5BC72 /* Register.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Register.m; sourceTree = "<group>"; };
+		64F481D21F4F947700F5BC72 /* ReportLists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportLists.h; sourceTree = "<group>"; };
+		64F481D31F4F947700F5BC72 /* ReportLists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportLists.m; sourceTree = "<group>"; };
+		64F481D51F4F991000F5BC72 /* UploadImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadImages.h; sourceTree = "<group>"; };
+		64F481D61F4F991000F5BC72 /* UploadImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadImages.m; sourceTree = "<group>"; };
+		64F481D91F4FB22700F5BC72 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		64F481DA1F4FB22700F5BC72 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +106,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64F481C81F4F646000F5BC72 /* Foundation.framework in Frameworks */,
+				64F481C61F4F645300F5BC72 /* Social.framework in Frameworks */,
+				64F481C41F4F644B00F5BC72 /* MobileCoreServices.framework in Frameworks */,
+				64F481C21F4F644300F5BC72 /* AdSupport.framework in Frameworks */,
+				64F481C01F4F643C00F5BC72 /* Accounts.framework in Frameworks */,
+				64F481BA1F4F5ADB00F5BC72 /* libsqlite3.tbd in Frameworks */,
+				64F481B81F4F5AD000F5BC72 /* libz.tbd in Frameworks */,
+				64F481B61F4F5ACA00F5BC72 /* SystemConfiguration.framework in Frameworks */,
+				64F481B41F4F5AC400F5BC72 /* StoreKit.framework in Frameworks */,
+				64F481B21F4F5ABC00F5BC72 /* Security.framework in Frameworks */,
+				64F481B01F4F5AB600F5BC72 /* QuartzCore.framework in Frameworks */,
+				64F481AE1F4F5AAF00F5BC72 /* CoreLocation.framework in Frameworks */,
+				64F481AC1F4F5AA700F5BC72 /* CoreGraphics.framework in Frameworks */,
+				64F481BD1F4F5D6F00F5BC72 /* Bolts.framework in Frameworks */,
+				64F481AA1F4F5A9E00F5BC72 /* CFNetwork.framework in Frameworks */,
+				64F481BE1F4F5D6F00F5BC72 /* Parse.framework in Frameworks */,
+				64F481A81F4F5A9200F5BC72 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +150,7 @@
 				64F481841F4F596400F5BC72 /* MetricellAppTests */,
 				64F4818F1F4F596400F5BC72 /* MetricellAppUITests */,
 				64F481661F4F596400F5BC72 /* Products */,
+				64F481A61F4F5A9200F5BC72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,15 +167,10 @@
 		64F481671F4F596400F5BC72 /* MetricellApp */ = {
 			isa = PBXGroup;
 			children = (
-				64F4816B1F4F596400F5BC72 /* AppDelegate.h */,
-				64F4816C1F4F596400F5BC72 /* AppDelegate.m */,
-				64F4816E1F4F596400F5BC72 /* ViewController.h */,
-				64F4816F1F4F596400F5BC72 /* ViewController.m */,
-				64F481711F4F596400F5BC72 /* Main.storyboard */,
-				64F481771F4F596400F5BC72 /* Assets.xcassets */,
-				64F481791F4F596400F5BC72 /* LaunchScreen.storyboard */,
-				64F4817C1F4F596400F5BC72 /* Info.plist */,
-				64F481741F4F596400F5BC72 /* MetricellApp.xcdatamodeld */,
+				64F481D81F4FB21700F5BC72 /* Objects */,
+				64F481A11F4F5A4F00F5BC72 /* Viewcontrollers */,
+				64F481A01F4F5A4B00F5BC72 /* Storyboards */,
+				64F4819E1F4F5A3E00F5BC72 /* Framework */,
 				64F481681F4F596400F5BC72 /* Supporting Files */,
 			);
 			path = MetricellApp;
@@ -120,6 +179,11 @@
 		64F481681F4F596400F5BC72 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				64F4816B1F4F596400F5BC72 /* AppDelegate.h */,
+				64F4816C1F4F596400F5BC72 /* AppDelegate.m */,
+				64F481771F4F596400F5BC72 /* Assets.xcassets */,
+				64F4817C1F4F596400F5BC72 /* Info.plist */,
+				64F481741F4F596400F5BC72 /* MetricellApp.xcdatamodeld */,
 				64F481691F4F596400F5BC72 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -141,6 +205,70 @@
 				64F481921F4F596500F5BC72 /* Info.plist */,
 			);
 			path = MetricellAppUITests;
+			sourceTree = "<group>";
+		};
+		64F4819E1F4F5A3E00F5BC72 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				64F481BB1F4F5D6F00F5BC72 /* Bolts.framework */,
+				64F481BC1F4F5D6F00F5BC72 /* Parse.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		64F481A01F4F5A4B00F5BC72 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				64F481711F4F596400F5BC72 /* Main.storyboard */,
+				64F481791F4F596400F5BC72 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		64F481A11F4F5A4F00F5BC72 /* Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				64F481C91F4F6BA600F5BC72 /* LogIn.h */,
+				64F481CA1F4F6BA600F5BC72 /* LogIn.m */,
+				64F481CC1F4F895600F5BC72 /* Register.h */,
+				64F481CD1F4F895600F5BC72 /* Register.m */,
+				64F481D21F4F947700F5BC72 /* ReportLists.h */,
+				64F481D31F4F947700F5BC72 /* ReportLists.m */,
+				64F481D51F4F991000F5BC72 /* UploadImages.h */,
+				64F481D61F4F991000F5BC72 /* UploadImages.m */,
+			);
+			name = Viewcontrollers;
+			sourceTree = "<group>";
+		};
+		64F481A61F4F5A9200F5BC72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64F481C71F4F646000F5BC72 /* Foundation.framework */,
+				64F481C51F4F645300F5BC72 /* Social.framework */,
+				64F481C31F4F644B00F5BC72 /* MobileCoreServices.framework */,
+				64F481C11F4F644300F5BC72 /* AdSupport.framework */,
+				64F481BF1F4F643C00F5BC72 /* Accounts.framework */,
+				64F481B91F4F5ADB00F5BC72 /* libsqlite3.tbd */,
+				64F481B71F4F5AD000F5BC72 /* libz.tbd */,
+				64F481B51F4F5ACA00F5BC72 /* SystemConfiguration.framework */,
+				64F481B31F4F5AC400F5BC72 /* StoreKit.framework */,
+				64F481B11F4F5ABC00F5BC72 /* Security.framework */,
+				64F481AF1F4F5AB600F5BC72 /* QuartzCore.framework */,
+				64F481AD1F4F5AAF00F5BC72 /* CoreLocation.framework */,
+				64F481AB1F4F5AA700F5BC72 /* CoreGraphics.framework */,
+				64F481A91F4F5A9E00F5BC72 /* CFNetwork.framework */,
+				64F481A71F4F5A9200F5BC72 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64F481D81F4FB21700F5BC72 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				64F481D91F4FB22700F5BC72 /* Constants.h */,
+				64F481DA1F4FB22700F5BC72 /* Constants.m */,
+			);
+			name = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,10 +407,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64F481701F4F596400F5BC72 /* ViewController.m in Sources */,
 				64F4816D1F4F596400F5BC72 /* AppDelegate.m in Sources */,
 				64F4816A1F4F596400F5BC72 /* main.m in Sources */,
 				64F481761F4F596400F5BC72 /* MetricellApp.xcdatamodeld in Sources */,
+				64F481DB1F4FB22700F5BC72 /* Constants.m in Sources */,
+				64F481CE1F4F895600F5BC72 /* Register.m in Sources */,
+				64F481D71F4F991000F5BC72 /* UploadImages.m in Sources */,
+				64F481CB1F4F6BA600F5BC72 /* LogIn.m in Sources */,
+				64F481D41F4F947700F5BC72 /* ReportLists.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +564,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J433UJ28X4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MetricellApp",
+				);
 				INFOPLIST_FILE = MetricellApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fariszaman.MetricellApp;
@@ -444,6 +580,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = J433UJ28X4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MetricellApp",
+				);
 				INFOPLIST_FILE = MetricellApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fariszaman.MetricellApp;
@@ -520,6 +660,7 @@
 				64F481971F4F596500F5BC72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64F481981F4F596500F5BC72 /* Build configuration list for PBXNativeTarget "MetricellAppTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +669,7 @@
 				64F4819A1F4F596500F5BC72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64F4819B1F4F596500F5BC72 /* Build configuration list for PBXNativeTarget "MetricellAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +678,7 @@
 				64F4819D1F4F596500F5BC72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

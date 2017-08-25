@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import <Parse/Parse.h>
+#import <Bolts/Bolts.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
